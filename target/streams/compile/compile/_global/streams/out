@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/efaz/Documents/Repos/hello/src/main/scala/example/ExampleApp.scala:36:25: overloaded method show with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  [A](group: scalismo.ui.api.Group, a: A, name: String)(implicit showInScene: scalismo.ui.api.ShowInScene[A]): showInScene.View <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [A](a: A, name: String)(implicit showInScene: scalismo.ui.api.ShowInScene[A]): showInScene.View[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (scalismo.ui.api.Group, scalismo.mesh.TriangleMesh[scalismo.geometry._3D], scalismo.mesh.TriangleMesh[scalismo.geometry._3D], String)[0m
+[0m[[0m[31merror[0m] [0m[0m      val meshView = ui.show(paolaGroup, mesh,mesh2, "femur")[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
