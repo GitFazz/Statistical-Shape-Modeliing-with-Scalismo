@@ -41,7 +41,8 @@ object ExampleApp {
 
       ////////////////////// add code  : gauss
 
-      val mesh: TriangleMesh[_3D] = MeshIO.readMesh(new java.io.File("datasets/Segmentation_Segment_2.stl")).get
+      val mesh: TriangleMesh[_3D] = MeshIO.readMesh(new java.io.File("datasets/half_femur.ply")).get
+      //val mesh: TriangleMesh[_3D] = MeshIO.readMesh(new java.io.File("datasets/Segmentation_Segment_2.stl")).get
       
       val femur = ui.createGroup("femur")
       val meshView = ui.show(femur, mesh, "femur")
